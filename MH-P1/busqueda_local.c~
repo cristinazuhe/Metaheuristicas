@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "busqueda_local.h"
+
+int **pm1, **pm2, copian;
+
+/*Función para barajar un vector un número determinado de veces*/
+void Barajar(int *solucion, int veces){
+	int i, pri, seg, aux;
+	for (i =0; i<veces*2; i++){
+		pri = GenerarAleatorio(copian-1) + 1;
+		do {
+			seg = GenerarAleatorio(copian-1) + 1;
+		} while (pri == seg);
+		aux = solucion[pri];
+		solucion[pri]=solucion[seg];
+		solucion[seg]=aux;
+	}
+}
+
+/*Función para generar un número aleatorio*/
+int GenerarAleatorio(int tam){
+    int res;
+    res =  (Rand() * tam);
+    return res;
+}
+
+/*Calcular el coste de cambiar una posición*/
+int CostePosicion(int * solucion, int r, int s){
+	int suma = 0;
+	int k;
+	for (k=0; k<copian; k++){
+		if (k != r && k != s){
+			suma += (pm1[r][k]*((pm2[solucion[s]][solucion[k]])-(pm2[solucion[r]][solucion[k]]))) +
+				(pm1[s][k]*((pm2[solucion[r]][solucion[k]])-(pm2[solucion[s]][solucion[k]]))) +
+				(pm1[k][r]*((pm2[solucion[k]][solucion[s]])-(pm2[solucion[k]][solucion[r]]))) +
+				(pm1[k][s]*((pm2[solucion[k]][solucion[r]])-(pm2[solucion[k]][solucion[s]])));
+		}
+	}
+	return suma;
+}
+
+/*Función para comprobar si un movimiento mejora*/
+int CheckMove(int i, int j, int * solucion, int *cost){
+    int res=0;
+    int costant = (*cost);
+    int aux = solucion[i];
+    solucion[i]=solucion[j];
+    solucion[j]=aux;
+    int costecambio = CostePosicion(solucion,i,j);
+    if (costecambio > 0){
+        (*cost) = costant - costecambio;
+        res = 1;
+    }
+    else {
+        aux = solucion[i];
+        solucion[i]=solucion[j];
+        solucion[j]=aux;
+    }
+    return res;
+}
+
+/*Función don´t looks bit para la LS*/
+int dontlooksbit(int * solucion, int *coste, int * dlb){
+    int i,j;
+    int improve_flag=0;
+    for (i = 0; i<copian && improve_flag!=1; i++){
+        if (dlb[i]==0){
+            improve_flag=0;
+            for (j=0; j<copian; j++){
+                if (i != j){
+                	int cost=(*coste);
+                    int move_improves = CheckMove(i,j,solucion,&cost);
+                    (*coste) = cost;
+                    if (move_improves == 1){
+                        dlb[i]=0;
+                        dlb[j]=0;
+                        improve_flag = 1;
+                    }
+                }
+            }
+            if (improve_flag == 0){
+                dlb[i] = 1;
+            }
+        }
+    }
+    return improve_flag;
+}
+
+/*Función para aplicar Busqueda Local*/
+void aplicarBusquedaLocal(int n, int **mat1, int **mat2, int *solucion, int *costo){
+	pm1 = mat1;
+	pm2 = mat2;
+	copian = n;
+	Seed = 111;
+	//Genero la solución incial
+	int i;
+	Barajar(solucion,n);
+	//Bucle principal
+	int improve = 1;
+	int dlb[n];
+	int coste=0;
+	for (i=0; i<n; i++){
+		dlb[i]=0;
+	}
+	coste = miCosto(solucion,n);
+	do {
+		improve = dontlooksbit(solucion,&coste,dlb);
+	} while (improve == 1);
+	(*costo) = coste;
+}
+
