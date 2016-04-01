@@ -1,0 +1,25 @@
+#ifndef _BUSQUEDALOCAL_H_
+#define _BUSQUEDALOCAL_H_
+
+/* Definicion del generador de numeros aleatorios */
+#define MASK 2147483647
+#define PRIME 65539
+#define SCALE 0.4656612875e-9
+
+#define Rand()  (( Seed = ( (Seed * PRIME) & MASK) ) * SCALE )
+
+unsigned long Seed; /* semilla del generador de numeros aleatorios */
+
+void Barajar(int *solucion, int veces);
+
+int GenerarAleatorio(int tam);
+
+int CostePosicion(int * solucion, int r, int s);
+
+int CheckMove(int i, int j, int * solucion, int *cost);
+
+int dontlooksbit(int * solucion, int *coste, int * dlb);
+
+void aplicarBusquedaLocal(int n, int **mat1, int **mat2, int *solucion, int *costo);
+
+#endif
