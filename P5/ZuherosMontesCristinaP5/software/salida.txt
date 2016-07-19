@@ -1,0 +1,112 @@
+Problema: datos/chr20a.dat con n: 20
+	Greeedy: 8100 en 0.000026
+	AM0: 2492 en 1.814030
+	AM1: 2772 en 0.309295
+	AM2: 2688 en 0.301811
+Problema: datos/chr20c.dat con n: 20
+	Greeedy: 78718 en 0.000009
+	AM0: 17370 en 2.028791
+	AM1: 23532 en 0.320966
+	AM2: 22064 en 0.344594
+Problema: datos/chr22b.dat con n: 22
+	Greeedy: 11942 en 0.000011
+	AM0: 6676 en 2.502735
+	AM1: 6802 en 0.382723
+	AM2: 6622 en 0.377982
+Problema: datos/chr25a.dat con n: 25
+	Greeedy: 17556 en 0.000013
+	AM0: 4676 en 3.792813
+	AM1: 4852 en 0.569301
+	AM2: 4794 en 0.576181
+Problema: datos/esc32a.dat con n: 32
+	Greeedy: 342 en 0.000019
+	AM0: 144 en 6.759218
+	AM1: 156 en 0.994701
+	AM2: 150 en 1.001042
+Problema: datos/esc64a.dat con n: 64
+	Greeedy: 148 en 0.000063
+	AM0: 116 en 38.773483
+	AM1: 116 en 5.189232
+	AM2: 116 en 5.186749
+Problema: datos/esc128.dat con n: 128
+	Greeedy: 142 en 0.000256
+	AM0: 64 en 286.804077
+	AM1: 64 en 37.538399
+	AM2: 64 en 35.586563
+Problema: datos/kra32.dat con n: 32
+	Greeedy: 117130 en 0.000020
+	AM0: 91660 en 8.190619
+	AM1: 91450 en 1.160271
+	AM2: 91700 en 1.148621
+Problema: datos/lipa90a.dat con n: 90
+	Greeedy: 367797 en 0.000152
+	AM0: 363118 en 143.270111
+	AM1: 363424 en 18.416882
+	AM2: 363118 en 18.279310
+Problema: datos/sko42.dat con n: 42
+	Greeedy: 18902 en 0.000035
+	AM0: 16096 en 23.157299
+	AM1: 16282 en 3.012048
+	AM2: 16122 en 3.012386
+Problema: datos/sko49.dat con n: 49
+	Greeedy: 27378 en 0.000048
+	AM0: 23860 en 39.456535
+	AM1: 24000 en 5.094212
+	AM2: 23722 en 5.090306
+Problema: datos/sko81.dat con n: 81
+	Greeedy: 105828 en 0.000117
+	AM0: 92262 en 204.014587
+	AM1: 92324 en 25.262976
+	AM2: 92392 en 26.051910
+Problema: datos/sko90.dat con n: 90
+	Greeedy: 131450 en 0.000166
+	AM0: 117292 en 303.909119
+	AM1: 117810 en 39.580032
+	AM2: 117768 en 39.847103
+Problema: datos/sko100f.dat con n: 100
+	Greeedy: 170472 en 0.000192
+	AM0: 151332 en 428.867096
+	AM1: 151746 en 55.157452
+	AM2: 151120 en 52.299824
+Problema: datos/tai64c.dat con n: 64
+	Greeedy: 5893540 en 0.000066
+	AM0: 3082764 en 43.704540
+	AM1: 2489166 en 5.729422
+	AM2: 2832596 en 5.631761
+Problema: datos/tai80a.dat con n: 80
+	Greeedy: 15638632 en 0.000133
+	AM0: 15717270 en 114.191284
+	AM1: 15600978 en 14.777834
+	AM2: 15587110 en 14.009858
+Problema: datos/tai100a.dat con n: 100
+	Greeedy: 23926646 en 0.000271
+	AM0: 24012022 en 213.607956
+	AM1: 24211090 en 26.593500
+	AM2: 24008718 en 26.320868
+Problema: datos/tai150b.dat con n: 150
+	Greeedy: 621314634 en 0.000455
+	AM0: 650769637 en 1573.379517
+	AM1: 650893354 en 188.873795
+	AM2: 652422654 en 179.306686
+Problema: datos/tai256c.dat con n: 256
+	Greeedy: 98685678 en 0.000968
+	AM0: 53058506 en 2264.675781
+	AM1: 51695640 en 268.014191
+	AM2: 55308018 en 268.700836
+Problema: datos/tho150.dat con n: 150
+	Greeedy: 9527466 en 0.000446
+	AM0: 9729522 en 1522.101807
+	AM1: 9816056 en 182.466599
+	AM2: 9764126 en 182.379135
+
+Nuevo de veces que es mejor:
+ Greedy: 3
+ AM0: 7
+ AM1: 3
+ AM2: 7
+
+Desviaciones: 
+ Greedy: 104.549458
+ AM0: 16.331411
+ AM1: 18.388801
+ AM2: 18.356564

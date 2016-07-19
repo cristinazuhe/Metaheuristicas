@@ -1,0 +1,112 @@
+Problema: datos/chr20a.dat con n: 20
+	Greeedy: 8100 en 0.000025
+	BMB: 2726 en 0.050355
+	GRAPS: 2726 en 0.044024
+	ILS: 2556 en 0.038825
+Problema: datos/chr20c.dat con n: 20
+	Greeedy: 78718 en 0.000010
+	BMB: 15770 en 0.040175
+	GRAPS: 15770 en 0.045305
+	ILS: 18048 en 0.040304
+Problema: datos/chr22b.dat con n: 22
+	Greeedy: 11942 en 0.000011
+	BMB: 6786 en 0.043864
+	GRAPS: 6592 en 0.051390
+	ILS: 6478 en 0.045289
+Problema: datos/chr25a.dat con n: 25
+	Greeedy: 17556 en 0.000014
+	BMB: 5258 en 0.054849
+	GRAPS: 5258 en 0.064868
+	ILS: 4214 en 0.053982
+Problema: datos/esc32a.dat con n: 32
+	Greeedy: 342 en 0.000019
+	BMB: 144 en 0.077123
+	GRAPS: 136 en 0.102520
+	ILS: 140 en 0.075834
+Problema: datos/esc64a.dat con n: 64
+	Greeedy: 148 en 0.000063
+	BMB: 116 en 0.283410
+	GRAPS: 116 en 0.690657
+	ILS: 116 en 0.276166
+Problema: datos/esc128.dat con n: 128
+	Greeedy: 142 en 0.000667
+	BMB: 66 en 1.754088
+	GRAPS: 66 en 7.949668
+	ILS: 66 en 1.791571
+Problema: datos/kra32.dat con n: 32
+	Greeedy: 117130 en 0.000019
+	BMB: 91220 en 0.083773
+	GRAPS: 91220 en 0.109265
+	ILS: 92120 en 0.083609
+Problema: datos/lipa90a.dat con n: 90
+	Greeedy: 367797 en 0.000142
+	BMB: 363125 en 0.859740
+	GRAPS: 363125 en 2.385345
+	ILS: 363183 en 0.886358
+Problema: datos/sko42.dat con n: 42
+	Greeedy: 18902 en 0.000033
+	BMB: 16096 en 0.170320
+	GRAPS: 16058 en 0.244695
+	ILS: 16182 en 0.172207
+Problema: datos/sko49.dat con n: 49
+	Greeedy: 27378 en 0.000046
+	BMB: 23902 en 0.248076
+	GRAPS: 23754 en 0.400976
+	ILS: 23896 en 0.255190
+Problema: datos/sko81.dat con n: 81
+	Greeedy: 105828 en 0.000117
+	BMB: 92594 en 1.148446
+	GRAPS: 92594 en 2.142735
+	ILS: 92842 en 1.166958
+Problema: datos/sko90.dat con n: 90
+	Greeedy: 131450 en 0.000158
+	BMB: 117480 en 1.644668
+	GRAPS: 117480 en 3.091231
+	ILS: 117590 en 1.606314
+Problema: datos/sko100f.dat con n: 100
+	Greeedy: 170472 en 0.000203
+	BMB: 151130 en 2.392135
+	GRAPS: 151130 en 4.657526
+	ILS: 151172 en 2.341845
+Problema: datos/tai64c.dat con n: 64
+	Greeedy: 5893540 en 0.000064
+	BMB: 1857646 en 0.287127
+	GRAPS: 1855928 en 0.692300
+	ILS: 1855928 en 0.275021
+Problema: datos/tai80a.dat con n: 80
+	Greeedy: 15638632 en 0.000125
+	BMB: 14041938 en 0.649065
+	GRAPS: 14001864 en 1.609739
+	ILS: 13986988 en 0.660222
+Problema: datos/tai100a.dat con n: 100
+	Greeedy: 23926646 en 0.000189
+	BMB: 21680016 en 1.370269
+	GRAPS: 21680016 en 3.813323
+	ILS: 21755410 en 1.422978
+Problema: datos/tai150b.dat con n: 150
+	Greeedy: 621314634 en 0.000676
+	BMB: 512177625 en 9.877018
+	GRAPS: 510445685 en 20.464499
+	ILS: 508165837 en 8.863618
+Problema: datos/tai256c.dat con n: 256
+	Greeedy: 98685678 en 0.001042
+	BMB: 44913272 en 16.285997
+	GRAPS: 44913272 en 112.846756
+	ILS: 44951030 en 16.752260
+Problema: datos/tho150.dat con n: 150
+	Greeedy: 9527466 en 0.000455
+	BMB: 8304526 en 9.693963
+	GRAPS: 8304526 en 20.997042
+	ILS: 8307036 en 9.298895
+
+Nuevo de veces que es mejor:
+ Greedy: 0
+ BMB: 0
+ GRAPS: 12
+ ILS: 8
+
+Desviaciones: 
+ Greedy: 104.549458
+ BMB: 9.225349
+ GRAPS: 8.678321
+ ILS: 7.922058

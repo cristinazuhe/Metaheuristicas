@@ -1,0 +1,134 @@
+Problema: datos/chr20a.dat con n: 20
+	Greedy: 8100 en 0.000027
+	BL: 3092 en 0.001033
+	ES: 3306 en 0.009570
+	BT: 3450 en 0.558893
+	BTExt: 2848 en 0.643880
+Problema: datos/chr20c.dat con n: 20
+	Greedy: 78718 en 0.000010
+	BL: 24392 en 0.000367
+	ES: 23280 en 0.002271
+	BT: 20808 en 0.567143
+	BTExt: 14142 en 0.654696
+Problema: datos/chr22b.dat con n: 22
+	Greedy: 11942 en 0.000013
+	BL: 7516 en 0.000425
+	ES: 6924 en 0.002305
+	BT: 6736 en 0.617453
+	BTExt: 7526 en 0.651528
+Problema: datos/chr25a.dat con n: 25
+	Greedy: 17556 en 0.000014
+	BL: 5996 en 0.000699
+	ES: 5256 en 0.004586
+	BT: 5350 en 0.727890
+	BTExt: 6058 en 0.724798
+Problema: datos/esc32a.dat con n: 32
+	Greedy: 342 en 0.000020
+	BL: 170 en 0.001243
+	ES: 148 en 0.101188
+	BT: 152 en 0.877478
+	BTExt: 148 en 0.927588
+Problema: datos/esc64a.dat con n: 64
+	Greedy: 148 en 0.000065
+	BL: 118 en 0.008649
+	ES: 116 en 0.149860
+	BT: 116 en 1.875301
+	BTExt: 116 en 2.135493
+Problema: datos/esc128.dat con n: 128
+	Greedy: 142 en 0.000249
+	BL: 72 en 0.066518
+	ES: 94 en 0.498280
+	BT: 72 en 4.610272
+	BTExt: 76 en 6.568865
+Problema: datos/kra32.dat con n: 32
+	Greedy: 117130 en 0.000020
+	BL: 94900 en 0.001649
+	ES: 94340 en 0.015618
+	BT: 97260 en 0.855035
+	BTExt: 95430 en 0.904025
+Problema: datos/lipa90a.dat con n: 90
+	Greedy: 367797 en 0.000148
+	BL: 363339 en 0.029536
+	ES: 363550 en 0.632297
+	BT: 363493 en 2.837963
+	BTExt: 363886 en 3.445236
+Problema: datos/sko42.dat con n: 42
+	Greedy: 18902 en 0.000035
+	BL: 16386 en 0.003911
+	ES: 16362 en 0.058680
+	BT: 16372 en 1.121930
+	BTExt: 16100 en 1.201094
+Problema: datos/sko49.dat con n: 49
+	Greedy: 27378 en 0.000048
+	BL: 24322 en 0.009612
+	ES: 23866 en 0.082572
+	BT: 23910 en 1.354302
+	BTExt: 23948 en 1.429545
+Problema: datos/sko81.dat con n: 81
+	Greedy: 105828 en 0.000120
+	BL: 93978 en 0.038205
+	ES: 92744 en 0.458564
+	BT: 93484 en 2.495212
+	BTExt: 92772 en 2.788802
+Problema: datos/sko90.dat con n: 90
+	Greedy: 131450 en 0.000164
+	BL: 119344 en 0.068961
+	ES: 118110 en 0.611445
+	BT: 118310 en 2.851815
+	BTExt: 120146 en 3.281445
+Problema: datos/sko100f.dat con n: 100
+	Greedy: 170472 en 0.000188
+	BL: 153576 en 0.079906
+	ES: 151554 en 0.717065
+	BT: 151330 en 3.303356
+	BTExt: 155502 en 3.838865
+Problema: datos/tai64c.dat con n: 64
+	Greedy: 5893540 en 0.000063
+	BL: 1873908 en 0.008308
+	ES: 1876252 en 0.146962
+	BT: 1866152 en 1.817016
+	BTExt: 2077120 en 2.188401
+Problema: datos/tai80a.dat con n: 80
+	Greedy: 15638632 en 0.000125
+	BL: 14181548 en 0.019576
+	ES: 14071292 en 0.450279
+	BT: 14075542 en 2.458699
+	BTExt: 14312890 en 2.801543
+Problema: datos/tai100a.dat con n: 100
+	Greedy: 23926646 en 0.000201
+	BL: 21895998 en 0.043525
+	ES: 21990420 en 0.294999
+	BT: 21741950 en 3.267349
+	BTExt: 21771040 en 3.964883
+Problema: datos/tai150b.dat con n: 150
+	Greedy: 621314634 en 0.000459
+	BL: 512318987 en 0.382572
+	ES: 517634873 en 2.417883
+	BT: 514202556 en 5.795101
+	BTExt: 548343023 en 6.925435
+Problema: datos/tai256c.dat con n: 256
+	Greedy: 98685678 en 0.001017
+	BL: 45027576 en 0.693838
+	ES: 45706204 en 2.391081
+	BT: 44958438 en 14.220004
+	BTExt: 46180354 en 27.781664
+Problema: datos/tho150.dat con n: 150
+	Greedy: 9527466 en 0.000430
+	BL: 8382600 en 0.399183
+	ES: 8370098 en 2.402222
+	BT: 8350126 en 5.866126
+	BTExt: 8698446 en 7.167435
+
+Nuevo de veces que es mejor:
+ Greedy: 0
+ BL: 2
+ ES: 6
+ BT: 7
+ BTExt: 5
+
+Desviaciones: 
+ Greedy: 104.549458
+ BL: 17.089969
+ ES: 16.316572
+ BT: 14.154673
+ BTExt: 13.586339

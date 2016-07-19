@@ -1,0 +1,134 @@
+Problema: datos/chr20a.dat con n: 20
+	Greeedy: 8100 en 0.000026
+	AGG (Posicional): 3144 en 0.088173
+	AGG (OX): 4732 en 0.101015
+	AGE (Posicional): 3840 en 0.115476
+	AGE (OX): 2898 en 0.122522
+Problema: datos/chr20c.dat con n: 20
+	Greeedy: 78718 en 0.000010
+	AGG (Posicional): 17610 en 0.083319
+	AGG (OX): 36484 en 0.097245
+	AGE (Posicional): 34068 en 0.116236
+	AGE (OX): 21554 en 0.122805
+Problema: datos/chr22b.dat con n: 22
+	Greeedy: 11942 en 0.000012
+	AGG (Posicional): 7324 en 0.093556
+	AGG (OX): 8136 en 0.107729
+	AGE (Posicional): 7118 en 0.130440
+	AGE (OX): 7360 en 0.138777
+Problema: datos/chr25a.dat con n: 25
+	Greeedy: 17556 en 0.000014
+	AGG (Posicional): 5852 en 0.112758
+	AGG (OX): 9924 en 0.130868
+	AGE (Posicional): 5654 en 0.150523
+	AGE (OX): 5594 en 0.161285
+Problema: datos/esc32a.dat con n: 32
+	Greeedy: 342 en 0.000019
+	AGG (Posicional): 158 en 0.179269
+	AGG (OX): 274 en 0.205583
+	AGE (Posicional): 164 en 0.226259
+	AGE (OX): 196 en 0.239968
+Problema: datos/esc64a.dat con n: 64
+	Greeedy: 148 en 0.000066
+	AGG (Posicional): 124 en 0.587128
+	AGG (OX): 158 en 0.637520
+	AGE (Posicional): 118 en 0.597130
+	AGE (OX): 140 en 0.615878
+Problema: datos/esc128.dat con n: 128
+	Greeedy: 142 en 0.000238
+	AGG (Posicional): 78 en 2.118848
+	AGG (OX): 182 en 2.282317
+	AGE (Posicional): 138 en 2.082828
+	AGE (OX): 168 en 2.126559
+Problema: datos/kra32.dat con n: 32
+	Greeedy: 117130 en 0.000019
+	AGG (Posicional): 96330 en 0.180718
+	AGG (OX): 111600 en 0.205687
+	AGE (Posicional): 95940 en 0.225095
+	AGE (OX): 99890 en 0.238211
+Problema: datos/lipa90a.dat con n: 90
+	Greeedy: 367797 en 0.000160
+	AGG (Posicional): 364000 en 1.075737
+	AGG (OX): 366402 en 1.180623
+	AGE (Posicional): 365799 en 1.084418
+	AGE (OX): 366214 en 1.120092
+Problema: datos/sko42.dat con n: 42
+	Greeedy: 18902 en 0.000035
+	AGG (Posicional): 16312 en 0.271388
+	AGG (OX): 18142 en 0.306102
+	AGE (Posicional): 16562 en 0.300793
+	AGE (OX): 17424 en 0.315432
+Problema: datos/sko49.dat con n: 49
+	Greeedy: 27378 en 0.000046
+	AGG (Posicional): 24282 en 0.358156
+	AGG (OX): 26614 en 0.399726
+	AGE (Posicional): 24478 en 0.389864
+	AGE (OX): 25868 en 0.408635
+Problema: datos/sko81.dat con n: 81
+	Greeedy: 105828 en 0.000118
+	AGG (Posicional): 94264 en 0.881932
+	AGG (OX): 102886 en 0.979716
+	AGE (Posicional): 100096 en 0.892610
+	AGE (OX): 102008 en 0.917647
+Problema: datos/sko90.dat con n: 90
+	Greeedy: 131450 en 0.000157
+	AGG (Posicional): 120490 en 1.077636
+	AGG (OX): 129622 en 1.185454
+	AGE (Posicional): 128662 en 1.093017
+	AGE (OX): 129088 en 1.120647
+Problema: datos/sko100f.dat con n: 100
+	Greeedy: 170472 en 0.000199
+	AGG (Posicional): 154022 en 1.304247
+	AGG (OX): 166692 en 1.427114
+	AGE (Posicional): 164448 en 1.304511
+	AGE (OX): 165724 en 1.337763
+Problema: datos/tai64c.dat con n: 64
+	Greeedy: 5893540 en 0.000061
+	AGG (Posicional): 2732114 en 0.604833
+	AGG (OX): 3037342 en 0.635984
+	AGE (Posicional): 3080600 en 0.603337
+	AGE (OX): 3009672 en 0.615142
+Problema: datos/tai80a.dat con n: 80
+	Greeedy: 15638632 en 0.000129
+	AGG (Posicional): 15793896 en 0.900899
+	AGG (OX): 15554544 en 0.955050
+	AGE (Posicional): 15659120 en 0.885123
+	AGE (OX): 15529818 en 0.898806
+Problema: datos/tai100a.dat con n: 100
+	Greeedy: 23926646 en 0.000204
+	AGG (Posicional): 24087528 en 1.357547
+	AGG (OX): 24269932 en 1.430141
+	AGE (Posicional): 24082030 en 1.305199
+	AGE (OX): 24263854 en 1.329062
+Problema: datos/tai150b.dat con n: 150
+	Greeedy: 621314634 en 0.000438
+	AGG (Posicional): 657434738 en 2.869304
+	AGG (OX): 654868636 en 3.044594
+	AGE (Posicional): 649495292 en 2.933754
+	AGE (OX): 652467671 en 3.016401
+Problema: datos/tai256c.dat con n: 256
+	Greeedy: 98685678 en 0.000990
+	AGG (Posicional): 53947022 en 8.336398
+	AGG (OX): 51871254 en 8.781862
+	AGE (Posicional): 52388720 en 8.167243
+	AGE (OX): 53445462 en 8.279838
+Problema: datos/tho150.dat con n: 150
+	Greeedy: 9527466 en 0.000432
+	AGG (Posicional): 9795822 en 3.030325
+	AGG (OX): 9898294 en 3.151037
+	AGE (Posicional): 9873390 en 3.013266
+	AGE (OX): 9895054 en 3.063979
+
+Nuevo de veces que es mejor:
+ Greedy: 3
+ AGG(pos): 10
+ AGG(OX): 1
+ AGE(pos): 3
+ AGE(OX): 3
+
+Desviaciones: 
+ Greedy: 104.549458
+ AGG(pos): 22.05846
+ AGG(OX): 56.308041
+ AGE(pos): 35.536484
+ AGE(OX): 34.556236

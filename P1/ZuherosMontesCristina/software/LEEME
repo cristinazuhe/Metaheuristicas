@@ -1,0 +1,8 @@
+UTILIZACIÓN:
+./pro -> salida.txt nos crea el archivo salida.txt con los resultados de todos los algoritmos para todos los casos de poblema.
+./pro "datos/<nombrecaso.dat" nos ejecutará un sólo caso, siempre y cuando todos!=1 en main
+Para cambiar la semilla, hacer uso de Set_random en cada uno de los algoritmos. 
+
+CONTENIDO:
+En "datos" nos encontramos todos los casos para los que ejecutamos los algoritmos, así como las tablas de desviaciones y tiempos obtenidos en cada uno de ellos.
+El fichero salida.txt también contiene las desviaciones y tiempos de cada uno de los algoritmos para cada caso. 
